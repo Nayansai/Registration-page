@@ -32,4 +32,9 @@ registration-form/
 Project Details
 Frontend: HTML and CSS for form creation and styling.
 Backend: Node.js with Express for routing and handling form submissions.
-Database: MongoDB for storing user data.
+Database: ![Screenshot 2024-08-21 150137](https://github.com/user-attachments/assets/285c8361-2a3a-44fa-9bb8-f2845397d301)
+![Screenshot 2024-08-21 150123](https://github.com/user-attachments/assets/2ce5abd8-7ca9-4e5f-9023-85a734789411)
+MongoDB for storing user data.
+
+
+
