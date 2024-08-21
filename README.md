@@ -10,15 +10,24 @@ Features :
 
 Project Structure -
 
+
 registration-form/
 │
+
 ├── public/
+
 │          ├── style.css
+
 │          ├── index.html
+
 │          ├── signedup.html
+
 ├── index.js                    # Main Node.js server with mongodb connection file
+
 ├── package.json                # Project dependencies
+
 ├── package-lock.json           # exact versions of dependencies installed ("body-parser": "^1.20.2","express": "^4.19.2","mongoose": "^8.5.3","nodemon": "^3.1.4")
+
 
 Project Details
 Frontend: HTML and CSS for form creation and styling.
