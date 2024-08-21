@@ -1,0 +1,72 @@
+body{
+    background-image: url(freepik.jpg);
+}
+.main {
+    padding: 20px;
+    font-family: Arial;
+    box-shadow: 5px 5px 7px 5px #8888;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    float: right;
+    width: 40%; 
+    margin: 20px;
+    margin-top: 60px;
+}
+
+.main h2 {
+    font-size: 36px;
+    text-align: center;
+    font-family: Arial;
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    font-size: 20px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    background-color: #764776;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #337ab7;
+}
+
+.password-wrapper {
+    position: relative;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.box {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    font-size: 20px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
