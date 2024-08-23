@@ -9,7 +9,7 @@ body{
     border: 1px solid #ddd;
     border-radius: 10px;
     float: right;
-    width: 40%; 
+    width: 45%; 
     margin: 20px;
     margin-top: 60px;
 }
@@ -19,6 +19,11 @@ body{
     text-align: center;
     font-family: Arial;
     margin-bottom: 20px;
+}
+
+h1{
+    font-size: 36px;
+    text-align: center;
 }
 
 input[type="text"], input[type="password"], input[type="email"] {
@@ -47,6 +52,12 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #337ab7;
 }
+
+.button-container p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: large;
+  }
 
 .password-wrapper {
     position: relative;
