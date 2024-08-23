@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                
+            </div>
+            <div class="col-md-6 main">
+                <form action="/login" method="POST">
+                    <h2>Login</h2>
+                    <input type="text" class="box" id="username" name="username" placeholder="Username" required/>
+                    <br>
+                    <div class="password-wrapper">
+                        <input type="password" class="box" id="password" name="password" placeholder="Password" required/>
+                        <span class="toggle-password" onclick="togglePassword()">👁️</span>
+                    </div>
+                    <br>
+                    <div class="button-container">
+                        <input type="submit" value="Login" id="submit" />
+                        <p> Don't have an account? <a href="signup.html">Sign Up</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script>
+        function togglePassword() {
+            const passwordField = document.getElementById('password');
+            const toggleIcon = document.querySelector('.toggle-password');
+            
+            if (passwordField.type === 'password') {
+                passwordField.type = 'text';
+                toggleIcon.textContent = '🙈'; 
+            } else {
+                passwordField.type = 'password';
+                toggleIcon.textContent = '👁️'; 
+            }
+        }
+    </script>
+</body>
+</html>
