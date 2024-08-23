@@ -26,7 +26,7 @@ registration-form/
 
 ├── package.json                # Project dependencies
 
-├── package-lock.json           # exact versions of dependencies installed ("body-parser": "^1.20.2","express": "^4.19.2","mongoose": "^8.5.3","nodemon": "^3.1.4")
+├── package-lock.json           # exact versions of dependencies installed ("body-parser": "^1.20.2","express": "^4.19.2","mongoose": "^8.5.3","nodemon": "^3.1.4","bcrypt": "^5.1.1","cors": "^2.8.5").
 
 
 Project Details
